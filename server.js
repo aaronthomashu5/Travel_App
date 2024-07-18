@@ -39,5 +39,5 @@ mongoose.connection.once("open", () => {
     console.log("connected to database");
     app.listen(process.env.PORT || PORT,()=>{
         console.log("SERVER IS UP AND RUNNING");
-    })
-})
+    });
+});
